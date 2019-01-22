@@ -51,8 +51,7 @@ Then you need to add
 srv = SSLWSGIRefServer(host="0.0.0.0", port=8080)
 run(server=srv)
 ```
-
-Run your .py file and type `https://yourdomain/hello...` and you will be pleasantly surprised to find a little lock before url.
+Change `@app.route` into `@get`, run your .py file and type `https://yourdomain/hello...` and you will be pleasantly surprised to find a little lock before url.
 
 ### Add domain
 
