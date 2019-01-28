@@ -64,7 +64,7 @@ Type the following
 
 ```c
 Host server
-    HostName 101.132.37.59
+    HostName xxx.xx.xxx.xx
     Port 22
     User username
     LocalForward 30572 xxx.xxx.x.x:3372
